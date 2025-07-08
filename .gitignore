@@ -1,0 +1,33 @@
+# Python
+backend/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.env.*
+.env
+.DS_Store
+
+# Flask
+instance/
+.webassets-cache
+
+# React
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+
+# VSCode
+.vscode/
+
+# Misc
+*.swp
+*.swo 
