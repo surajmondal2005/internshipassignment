@@ -117,7 +117,7 @@ function DeskDetection({ onBack }) {
     formData.append("image", selectedImage);
 
     try {
-      const response = await fetch("http://127.0.0.1:5000/analyze_desk", {
+      const response = await fetch("https://internshipassignment-1.onrender.com/analyze_desk", {
         method: "POST",
         body: formData,
       });
@@ -145,7 +145,7 @@ function DeskDetection({ onBack }) {
     formData.append("video", selectedVideo);
 
     try {
-      const response = await fetch("http://127.0.0.1:5000/analyze_desk_video", {
+      const response = await fetch("https://internshipassignment-1.onrender.com/analyze_desk_video", {
         method: "POST",
         body: formData,
       });
@@ -172,7 +172,7 @@ function DeskDetection({ onBack }) {
         const formData = new FormData();
         formData.append("image", blob, "webcam.jpg");
         try {
-          const response = await fetch("http://127.0.0.1:5000/analyze_desk", {
+          const response = await fetch("https://internshipassignment-1.onrender.com/analyze_desk", {
             method: "POST",
             body: formData,
           });
@@ -403,7 +403,7 @@ function App() {
     formData.append("image", selectedImage);
 
     try {
-      const response = await fetch("http://127.0.0.1:5000/analyze", {
+      const response = await fetch("https://internshipassignment-1.onrender.com/analyze", {
         method: "POST",
         body: formData,
       });
@@ -431,7 +431,7 @@ function App() {
     formData.append("video", selectedVideo);
 
     try {
-      const response = await fetch("http://127.0.0.1:5000/analyze_video", {
+      const response = await fetch("https://internshipassignment-1.onrender.com/analyze_video", {
         method: "POST",
         body: formData,
       });
@@ -458,7 +458,7 @@ function App() {
         const formData = new FormData();
         formData.append("image", blob, "webcam.jpg");
         try {
-          const response = await fetch("http://127.0.0.1:5000/analyze", {
+          const response = await fetch("https://internshipassignment-1.onrender.com/analyze", {
             method: "POST",
             body: formData,
           });
